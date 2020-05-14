@@ -26,13 +26,14 @@
 
 ## AdEDU 
 civic_advertised_campuses = {
-	playable = { host_has_dlc = "MegaCorp" }
 	potential = {
 		authority = { value = auth_corporate } 
-		ethics = {AND = { value = ethic_materialist 
+		ethics = {
+			AND = { value = ethic_materialist 
 			NOT = ethic_fanatic_materialist }
 			
 		}
+	description = "civic_tooltip_advertised_campuses"
 		modifier = { 
 		all_technology_research_speed = 0.05
 		leader_skill_levels = 1

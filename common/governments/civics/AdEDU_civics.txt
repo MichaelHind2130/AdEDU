@@ -30,7 +30,7 @@ civic_advertised_campuses = {
 		authority = { value = auth_corporate } 
 		ethics = {
 			AND = { value = ethic_materialist 
-			NOT = ethic_fanatic_materialist }
+			NOT = { ethic_fanatic_materialist }
 			
 		}
 	description = "civic_tooltip_advertised_campuses"

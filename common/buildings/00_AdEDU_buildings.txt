@@ -576,5 +576,75 @@ building_convention_center = {
 			}
 		}
 	}
+	
+building_campus_library = {
+	base_buildtime = @b2_time
+	base_cap_amount = 1
 
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		branch_office_value_mult = 0.25
+		job_merchant_add = 1
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = @b3_minerals
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+
+	ai_weight = {
+		weight = 50
+	}
+
+building_campus_security = {
+	base_buildtime = @b1_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+	}
+
+	country_modifier = {
+		country_naval_cap_add = 10
+	}
+
+	army_modifier = {
+		army_starting_experience_add = 100
+	}
+
+	planet_modifier = {
+		job_soldier_add = 1
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	ai_weight = {
+		factor = 10
+	}
 }
+}
+

@@ -606,7 +606,7 @@ building_campus_library = {
 	ai_weight = {
 		weight = 50
 	}
-
+}
 building_campus_security = {
 	base_buildtime = @b1_time
 
@@ -646,5 +646,5 @@ building_campus_security = {
 		factor = 10
 	}
 }
-}
+
 

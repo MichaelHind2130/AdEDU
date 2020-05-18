@@ -160,7 +160,7 @@ building_campus_medical_school = {
 			energy = 5
 		}
 	}
-	
+}	
 building_campus_residential_center = {
 	base_buildtime = @b2_time
 
@@ -198,8 +198,8 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
-	building_campus_robotics_center = {
+}	
+building_campus_robotics_center = {
 	base_buildtime = @b2_time
 
 	branch_office_building = yes
@@ -234,8 +234,8 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
-	building_campus_observitory = {
+}	
+building_campus_observitory = {
 	base_buildtime = @b2_time
 
 	branch_office_building = yes
@@ -270,8 +270,8 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
-	building_campus_sports_center = {
+}	
+building_campus_sports_center = {
 	base_buildtime = @b2_time
 
 	branch_office_building = yes
@@ -306,8 +306,8 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
-	building_campus_geology_building = {
+}	
+campus_geology_building = {
 	base_buildtime = @b2_time
 
 	branch_office_building = yes
@@ -342,8 +342,8 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
-	building_campus_humanities_center = {
+}	
+building_campus_humanities_center = {
 	base_buildtime = @b2_time
 
 	branch_office_building = yes
@@ -379,7 +379,7 @@ building_campus_residential_center = {
 			rare_crystals = 3
 		}
 	}
-	
+}
 	building_campus_depeartment_of_energy_sciences = {
 	base_buildtime = @b2_time
 
@@ -415,7 +415,7 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
+}	
 	building_campus_department_of_engineering = {
 	base_buildtime = @b2_time
 
@@ -451,7 +451,7 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
+}	
 	building_campus_administration = {
 	base_buildtime = @b2_time
 
@@ -488,7 +488,7 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
+}	
 	building_trade_school = {
 	base_buildtime = @b2_time
 
@@ -524,8 +524,8 @@ building_campus_residential_center = {
 			energy = 5
 		}
 	}
-	
-	building_convention_center = {
+}	
+building_convention_center = {
 	base_buildtime = @b2_time
 	base_cap_amount = 1
 

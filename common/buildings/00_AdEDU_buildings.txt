@@ -380,7 +380,7 @@ building_campus_humanities_center = {
 		}
 	}
 }
-	building_campus_depeartment_of_energy_sciences = {
+	building_campus_department_of_energy_sciences = {
 	base_buildtime = @b2_time
 
 	branch_office_building = yes
@@ -576,6 +576,7 @@ building_convention_center = {
 			}
 		}
 	}
+}
 	
 building_campus_library = {
 	base_buildtime = @b2_time
@@ -607,6 +608,7 @@ building_campus_library = {
 		weight = 50
 	}
 }
+
 building_campus_security = {
 	base_buildtime = @b1_time
 

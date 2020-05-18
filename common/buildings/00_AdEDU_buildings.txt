@@ -104,7 +104,7 @@ building_university_cafeteria = {
 	}
 
 	planet_modifier = {
-		job_researcher_add = 1
+		job_farmer_add = 3
 	}
 
 	resources = {
@@ -125,7 +125,7 @@ building_university_cafeteria = {
 	}
 }
 
-building_campus_medical_center = {
+building_campus_medical_school = {
 	base_buildtime = @b2_time
 
 	branch_office_building = yes
@@ -158,6 +158,422 @@ building_campus_medical_center = {
 		}
 		upkeep = {
 			energy = 5
+		}
+	}
+	
+building_campus_residential_center = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_clerk_add = 3
+		planet_housing_add = 8
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 1500
+			energy = 500
+		}
+		produces = {
+			society_research = 10
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_campus_robotics_center = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_roboticist_add = 1
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			engineering_research = 10
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_campus_observitory = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		researcher_add = 1
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			physics_research = 10
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_campus_sports_center = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_entertainer_add = 2
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			unity = 10
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_campus_geology_building = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_miner_add = 2
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			minerals = 10
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_campus_humanities_center = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_culture_worker_add = 2
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			influence = 1.5
+		}
+		upkeep = {
+			energy = 15
+			rare_crystals = 3
+		}
+	}
+	
+	building_campus_depeartment_of_energy_sciences = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_technician_add = 2
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			energy = 1
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_campus_department_of_engineering = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_metallurgist_add = 2
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_campus_administration = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_administrator_add = 1
+		job_bureaucrat_add = 2
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			admin_cap = 10
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_trade_school = {
+	base_buildtime = @b2_time
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			is_criminal_syndicate = no
+			NOT = { is_ai = yes }
+		}
+		habitable_structure = no
+		NOR = {
+			is_planet_class = pc_hive
+			is_planet_class = pc_machine
+			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_artisan_add = 2
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			consumer_goods = 10
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	building_convention_center = {
+	base_buildtime = @b2_time
+	base_cap_amount = 1
+
+	branch_office_building = yes
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	allow = {
+		num_pops >= 50
+	}
+
+	prerequisites = {
+		"tech_xeno_diplomacy"
+	}
+
+	show_tech_unlock_if = {
+		is_megacorp = yes
+		is_criminal_syndicate = no
+	}
+
+	country_modifier = {
+		diplo_weight_technology_mult = 0.1
+	}
+
+	planet_modifier = {
+		job_clerk_add = 2
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = @b3_minerals
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+
+	ai_weight = {
+		weight = 50
+		modifier = {
+			factor = 10
+			branch_office_owner = {
+				is_galactic_community_member = yes
+			}
 		}
 	}
 

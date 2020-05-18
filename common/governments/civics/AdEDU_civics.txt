@@ -36,8 +36,16 @@ civic_advertised_campuses = {
 			value = ethic_materialist
 			NOT = { value = ethic_fanatic_materialist }
 			
+		}
+	}
+	
+	possible = {
+		civics = {
+			NOT = {
+				value = civic_criminal_heritage
 			}
-
+		}
+	}
 		description = "civic_tooltip_advertised_campuses_effects"
 		
 			modifier = { 

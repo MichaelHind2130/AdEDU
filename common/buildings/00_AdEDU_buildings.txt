@@ -20,7 +20,7 @@ building_polytechnic_institute = {
 	}
 
 	planet_modifier = {
-		job_researcher_add = 1
+		job_researcher_add = 2
 	}
 
 	resources = {
@@ -34,7 +34,7 @@ building_polytechnic_institute = {
 			society_research = 10
 		}
 		upkeep = {
-			energy = 2
+			energy = 5
 		}
 	}
 
@@ -63,7 +63,7 @@ building_campus_store = {
 	}
 
 	planet_modifier = {
-		job_clerk_add = 4
+		job_clerk_add = 3
 	}
 
 	resources = {
@@ -125,8 +125,8 @@ building_university_cafeteria = {
 	}
 }
 
-building_campus_clinic = {
-	base_buildtime = @b1_time
+building_campus_medical_center = {
+	base_buildtime = @b2_time
 
 	branch_office_building = yes
 
@@ -141,6 +141,23 @@ building_campus_clinic = {
 			is_planet_class = pc_hive
 			is_planet_class = pc_machine
 			is_planet_class = pc_city
+		}
+	}
+	
+	planet_modifier = {
+		job_healthcare_add = 3
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			society_research = 10
+		}
+		upkeep = {
+			energy = 5
 		}
 	}
 

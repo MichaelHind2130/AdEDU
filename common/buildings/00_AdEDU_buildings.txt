@@ -9,6 +9,7 @@ building_polytechnic_institute = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			branch_office_owner = { has_valid_civic = civic_advertised_campuses }
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -52,6 +53,7 @@ building_campus_store = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			branch_office_owner = { has_valid_civic = civic_advertised_campuses }
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -92,7 +94,7 @@ building_university_cafeteria = {
 	potential = {
 		has_branch_office = yes
 		branch_office_owner = {
-			is_criminal_syndicate = no
+			branch_office_owner = { has_valid_civic = civic_advertised_campuses }
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -134,6 +136,7 @@ building_campus_medical_school = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			branch_office_owner = { has_valid_civic = civic_advertised_campuses }
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -170,6 +173,7 @@ building_campus_residential_center = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			 has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -208,6 +212,7 @@ building_campus_robotics_center = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			 has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -244,6 +249,7 @@ building_campus_observitory = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			 has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -280,6 +286,7 @@ building_campus_sports_center = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			 has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -316,6 +323,7 @@ campus_geology_building = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -352,6 +360,7 @@ building_campus_humanities_center = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+		has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -389,6 +398,7 @@ building_campus_humanities_center = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+		 has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -424,7 +434,7 @@ building_campus_humanities_center = {
 	potential = {
 		has_branch_office = yes
 		branch_office_owner = {
-			is_criminal_syndicate = no
+			 has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -461,6 +471,7 @@ building_campus_humanities_center = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -498,6 +509,7 @@ building_campus_humanities_center = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 		habitable_structure = no
@@ -534,6 +546,7 @@ building_convention_center = {
 	potential = {
 		has_branch_office = yes
 		branch_office_owner = { is_criminal_syndicate = no }
+		 branch_office_owner = { has_valid_civic = civic_advertised_campuses }
 	}
 
 	allow = {
@@ -547,6 +560,7 @@ building_convention_center = {
 	show_tech_unlock_if = {
 		is_megacorp = yes
 		is_criminal_syndicate = no
+		branch_office_owner = { has_valid_civic = civic_advertised_campuses }
 	}
 
 	country_modifier = {
@@ -587,6 +601,7 @@ building_campus_library = {
 	potential = {
 		has_branch_office = yes
 		branch_office_owner = { is_criminal_syndicate = no }
+		branch_office_owner = {  has_valid_civic = civic_advertised_campuses } 
 	}
 
 	planet_modifier = {
@@ -618,6 +633,7 @@ building_campus_security = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
+			 has_valid_civic = civic_advertised_campuses 
 			NOT = { is_ai = yes }
 		}
 	}

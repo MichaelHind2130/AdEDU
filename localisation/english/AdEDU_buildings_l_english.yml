@@ -13,41 +13,41 @@ building_campus_medical_school:0 "Medical Center"
 building_campus_medical_center_dec:0 "This will be the desc for Medical Center"
 
 building_campus_residential_center:0 "Residential Center"
-building_polytechnic_institute_desc:0 "This will be the desc for Residential Center"
+building_campus_residential_center_desc:0 "This will be the desc for Residential Center"
 
 building_campus_robotics_center:0 "Robotics Center"
-building_campus_store_desc:0 "This will be the desc for Robotics Center"
+building_campus_robotics_center_desc:0 "This will be the desc for Robotics Center"
 
 building_campus_observitory:0 "University Observitory"
-building_university_cafeteria_desc:0 "This will be the desc for University Cafeteria"
+building_campus_observitory_desc:0 "This will be the desc for University Cafeteria"
 
 building_campus_sports_center:0 "Sports Center"
-building_campus_medical_center_dec:0 "This will be the desc for Medical Center"
+building_campus_sports_center_desc:0 "This will be the desc for Medical Center"
 
-building_campus_geology_building:0 "Geology Building"
-building_polytechnic_institute_desc:0 "This will be the desc for Polytechnic Institute"
+campus_geology_building:0 "Geology Building"
+campus_geology_building_desc:0 "This will be the desc for Polytechnic Institute"
 
 building_campus_humanities_center:0 "Humanities Center"
-building_campus_store_desc:0 "This will be the desc for Campus Store"
+building_campus_humanities_center_desc:0 "This will be the desc for Campus Store"
 
 building_campus_department_of_energy_sciences:0 "Department of Energy Sciences"
-building_university_cafeteria_desc:0 "This will be the desc for University Cafeteria"
+building_campus_department_of_energy_sciences_desc:0 "This will be the desc for University Cafeteria"
 
 building_campus_department_of_engineering:0 "Department of Engineering"
-building_campus_medical_center_dec:0 "This will be the desc for Medical Center"
+building_campus_department_of_engineering_desc:0 "This will be the desc for Medical Center"
 
 building_campus_administration:0 "Campus Administration"
-building_polytechnic_institute_desc:0 "This will be the desc for Polytechnic Institute"
+building_campus_administration_desc:0 "This will be the desc for Polytechnic Institute"
 
 building_trade_school:0 "Trade School Campus"
-building_campus_store_desc:0 "This will be the desc for Campus Store"
+building_trade_school_desc:0 "This will be the desc for Campus Store"
 
 building_convention_center:0 "Convention Center"
-building_university_cafeteria_desc:0 "This will be the desc for University Cafeteria"
+building_convention_center_desc:0 "This will be the desc for University Cafeteria"
 
 building_campus_library:0 "Campus Library"
-building_campus_medical_center_dec:0 "This will be the desc for Medical Center"
+building_campus_library_desc:0 "This will be the desc for Medical Center"
 
 building_campus_security:0 "Campus Security Office"
-building_campus_medical_center_dec:0 "This will be the desc for Medical Center"
+building_campus_security_desc:0 "This will be the desc for Medical Center"
 

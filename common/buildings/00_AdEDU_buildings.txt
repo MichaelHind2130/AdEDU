@@ -493,7 +493,7 @@ building_campus_administration = {
 			minerals = 800
 		}
 		produces = {
-			admin_cap = 10
+			country_admin_cap_add = 10
 		}
 		upkeep = {
 			energy = 5

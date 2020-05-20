@@ -1,53 +1,50 @@
 ﻿l_english:
 
 building_polytechnic_institute:0 "Polytechnic Institute"
-building_polytechnic_institute_desc:0 "This will be the desc for Polytechnic Institute"
+building_polytechnic_institute_desc:0 "This Institute shall allow us to further our overall understanding of the universe through student research."
 
 building_campus_store:0 "Campus Store"
-building_campus_store_desc:0 "This will be the desc for Campus Store"
+building_campus_store_desc:0 "A Campus Store is an important source of revenue for any university. It's time we had one of our own."
 
 building_university_cafeteria:0 "University Cafeteria"
-building_university_cafeteria_desc:0 "This will be the desc for University Cafeteria"
+building_university_cafeteria_desc:0 "This building is used to store food and as a location for students to fulfill their nutritional requirements."
 
 building_campus_medical_school:0 "Medical Center"
-building_campus_medical_center_dec:0 "This will be the desc for Medical Center"
+building_campus_medical_center_dec:0 "The Medical Center shall provide both an increased understanding of life, as well as a more indepth way to study new medicines"
 
 building_campus_residential_center:0 "Residential Center"
-building_campus_residential_center_desc:0 "This will be the desc for Residential Center"
+building_campus_residential_center_desc:0 "With this building we shall provided much needed housing for all of our students."
 
 building_campus_robotics_center:0 "Robotics Center"
-building_campus_robotics_center_desc:0 "This will be the desc for Robotics Center"
+building_campus_robotics_center_desc:0 "With the addition of the Robotics Center we shall be more capable of educating our students on the subject of Robotics as well as research our own projects."
 
 building_campus_observitory:0 "University Observitory"
-building_campus_observitory_desc:0 "This will be the desc for University Cafeteria"
+building_campus_observitory_desc:0 "We can use the observitory to study the stars in a much greater detail then we were before, with the help of our student body"
 
-building_campus_sports_center:0 "Sports Center"
-building_campus_sports_center_desc:0 "This will be the desc for Medical Center"
+building_campus_sports_center:0 "Sports and Recreation Center"
+building_campus_sports_center_desc:0 "Our student body require a space to relax as well as an area to compete. This center shall provide them with one such location."
 
 campus_geology_building:0 "Geology Building"
-campus_geology_building_desc:0 "This will be the desc for Polytechnic Institute"
+campus_geology_building_desc:0 "Teaching our student body about how things are formed geologically will benefit both the university and our sstudent body."
 
-building_campus_humanities_center:0 "Humanities Center"
-building_campus_humanities_center_desc:0 "This will be the desc for Campus Store"
+building_campus_humanities_center:0 "Humanities Department"
+building_campus_humanities_center_desc:0 "The Humanities Department Shall educate our students on how to understand their fellow student."
 
 building_campus_department_of_energy_sciences:0 "Department of Energy Sciences"
-building_campus_department_of_energy_sciences_desc:0 "This will be the desc for University Cafeteria"
+building_campus_department_of_energy_sciences_desc:0 "With this department, we can educate our students on the science of electriciy as well as similar topics."
 
 building_campus_department_of_engineering:0 "Department of Engineering"
-building_campus_department_of_engineering_desc:0 "This will be the desc for Medical Center"
-
-building_campus_administration:0 "Campus Administration"
-building_campus_administration_desc:0 "This will be the desc for Polytechnic Institute"
+building_campus_department_of_engineering_desc:0 "With the establishment of this depeartment, we can further the understanding of engineering that our students possess."
 
 building_trade_school:0 "Trade School Campus"
-building_trade_school_desc:0 "This will be the desc for Campus Store"
+building_trade_school_desc:0 "Educating students in a Trade Occupation will prepare them for an individual that is indispenible to their employer."
 
 building_convention_center:0 "Convention Center"
-building_convention_center_desc:0 "This will be the desc for University Cafeteria"
+building_convention_center_desc:0 "A convention center would do wonders to keep the public aware of our willingness to educate our students in a variety of subjects."
 
 building_campus_library:0 "Campus Library"
-building_campus_library_desc:0 "This will be the desc for Medical Center"
+building_campus_library_desc:0 "This Library will surely increase the resources available to our student body."
 
 building_campus_security:0 "Campus Security Office"
-building_campus_security_desc:0 "This will be the desc for Medical Center"
+building_campus_security_desc:0 "Using this office equipped with campus safety training videos and all resources needed to keep our students safe we can provide a much safer learning environment for our students."
 

@@ -353,6 +353,7 @@ campus_geology_building = {
 }	
 building_campus_humanities_center = {
 	base_buildtime = @b2_time
+	base_cap_amount = 1
 
 	branch_office_building = yes
 

@@ -1,9 +1,9 @@
 version="1.0"
 tags={
-	"Buildings"
 	"Economy"
+	"Buildings"
 	"Gameplay"
 }
-name="Advertised Education"
-supported_version="2.7.1"
-remote_file_id="2103212778"
+name="Advertised Campuses"
+supported_version="2.7.2"
+remote_file_id="2153065430"
